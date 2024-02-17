@@ -11,6 +11,7 @@ class GithubServiceImpl implements GithubService {
 
     @Override
     public GithubRepositories getGithubReposByUsername(final String username) {
+        // TODO: Add filter to forks
         final List<Repository> repositories = new ArrayList<>();
 
         if (githubHttpClient.doesUserExist(username)) {
@@ -26,6 +27,6 @@ class GithubServiceImpl implements GithubService {
     }
 
     private void getRepositoryBranches(String username, Repository repository) {
-        repository.branches().addAll(githubHttpClient.getBranchList(username, repository.name()));
+        repository.setBranches(githubHttpClient.getBranchList(username, repository.getName()));
     }
 }

@@ -4,15 +4,13 @@ import com.githubintegration.githubapi.github.exceptions.GithubApiEmptyResultSet
 import com.githubintegration.githubapi.github.exceptions.GithubClientException;
 import com.githubintegration.githubapi.github.model.api.Branch;
 import com.githubintegration.githubapi.github.model.api.Repository;
-import com.githubintegration.githubapi.github.util.JsonMarshaller;
+import com.githubintegration.githubapi.github.model.github.GithubBranch;
+import com.githubintegration.githubapi.github.util.JsonUtils;
 import org.springframework.http.HttpRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;
-import org.springframework.http.client.ClientHttpResponse;
 import org.springframework.web.client.RestClient;
 
-import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 
 class GithubHttpClientImpl implements GithubHttpClient {
@@ -52,26 +50,32 @@ class GithubHttpClientImpl implements GithubHttpClient {
     }
 
 
-    private List<Branch> handleGetBranchList(HttpRequest request, ClientHttpResponse response) {
+    private List<Branch> handleGetBranchList(HttpRequest request, RestClient.RequestHeadersSpec.ConvertibleClientHttpResponse response) {
         try {
-            // FIXME: Response body is not a required json, find a solution to get one here
-            return getMappedList(response.getBody().toString(), Branch.class);
-        } catch (IOException e) {
+            List<GithubBranch> branches = getMappedList(response.bodyTo(String.class), GithubBranch.class);
+
+            return branches.stream()
+                    .map(this::getMappedBranch)
+                    .toList();
+        } catch (Exception e) {
             throw new GithubClientException(HttpStatus.BAD_REQUEST, STR."Error occurred when parsing Branches: \{e.getMessage()}");
         }
     }
 
-    private List<Repository> handleGetRepoList(HttpRequest request, ClientHttpResponse response) {
+    private List<Repository> handleGetRepoList(HttpRequest request, RestClient.RequestHeadersSpec.ConvertibleClientHttpResponse response) {
         try {
-            // FIXME: Response body is not a required json, find a solution to get one here
-            return getMappedList(response.getBody().toString(), Repository.class);
-        } catch (IOException e) {
+            return getMappedList(response.bodyTo(String.class), Repository.class);
+        } catch (Exception e) {
             throw new GithubClientException(HttpStatus.BAD_REQUEST, STR."Error occurred when parsing Repositories: \{e.getMessage()}");
         }
 
     }
 
     private <T> T getMappedList(String json, Class<?> clazz) {
-        return JsonMarshaller.unmarshalJsonCollection(json, List.class, clazz);
+        return JsonUtils.unmarshalJsonCollection(json, List.class, clazz);
+    }
+
+    private Branch getMappedBranch(GithubBranch githubBranch) {
+        return new Branch(githubBranch.name(), githubBranch.commit().sha());
     }
 }

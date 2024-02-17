@@ -4,7 +4,7 @@ import com.githubintegration.githubapi.github.exceptions.GithubApiEmptyResultSet
 import com.githubintegration.githubapi.github.exceptions.GithubClientException;
 import com.githubintegration.githubapi.github.exceptions.JsonMarshalException;
 import com.githubintegration.githubapi.github.model.exception.ApiError;
-import com.githubintegration.githubapi.github.util.JsonMarshaller;
+import com.githubintegration.githubapi.github.util.JsonUtils;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
@@ -36,6 +36,6 @@ class GithubExceptionHandler {
     }
 
     private String buildErrorBody(HttpStatus httpStatus, String errorMessage) {
-        return JsonMarshaller.marshalJson(new ApiError(httpStatus.toString(), errorMessage));
+        return JsonUtils.marshalJson(new ApiError(httpStatus.toString(), errorMessage));
     }
 }
