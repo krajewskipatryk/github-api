@@ -9,9 +9,12 @@ import java.util.List;
 class GithubServiceImpl implements GithubService {
     private final GithubHttpClient githubHttpClient;
 
+    public GithubServiceImpl(GithubHttpClient githubHttpClient) {
+        this.githubHttpClient = githubHttpClient;
+    }
+
     @Override
     public GithubRepositories getGithubReposByUsername(final String username) {
-        // TODO: Add filter to forks
         final List<Repository> repositories = new ArrayList<>();
 
         if (githubHttpClient.doesUserExist(username)) {
@@ -22,11 +25,7 @@ class GithubServiceImpl implements GithubService {
         return new GithubRepositories(username, repositories);
     }
 
-    public GithubServiceImpl(GithubHttpClient githubHttpClient) {
-        this.githubHttpClient = githubHttpClient;
-    }
-
     private void getRepositoryBranches(String username, Repository repository) {
-        repository.setBranches(githubHttpClient.getBranchList(username, repository.getName()));
+        repository.branches().addAll(githubHttpClient.getBranchList(username, repository.name()));
     }
 }

@@ -32,10 +32,8 @@ class GithubExceptionHandler {
     }
 
     private ResponseEntity<String> buildResponseEntity(HttpStatus httpStatus, String errorMessage) {
-        return ResponseEntity.status(httpStatus).body(buildErrorBody(httpStatus, errorMessage));
-    }
-
-    private String buildErrorBody(HttpStatus httpStatus, String errorMessage) {
-        return JsonUtils.marshalJson(new ApiError(httpStatus.toString(), errorMessage));
+        return ResponseEntity
+                .status(httpStatus)
+                .body(JsonUtils.marshalJson(new ApiError(httpStatus.toString(), errorMessage)));
     }
 }

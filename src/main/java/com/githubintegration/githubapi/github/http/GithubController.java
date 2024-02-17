@@ -13,14 +13,14 @@ import org.springframework.web.bind.annotation.*;
 class GithubController {
     private final GithubService githubService;
 
+    public GithubController(GithubService githubService) {
+        this.githubService = githubService;
+    }
+
     @GetMapping(path = "/{username}/repos", produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     ResponseEntity<GithubRepositories> getReposList(@PathVariable String username) {
         return ResponseEntity.ok()
                 .body(githubService.getGithubReposByUsername(username));
-    }
-
-    public GithubController(GithubService githubService) {
-        this.githubService = githubService;
     }
 }
