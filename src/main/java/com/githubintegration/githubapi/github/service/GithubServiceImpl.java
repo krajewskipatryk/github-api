@@ -18,7 +18,7 @@ class GithubServiceImpl implements GithubService {
         final List<Repository> repositories = new ArrayList<>();
 
         if (githubHttpService.doesUserExist(username)) {
-            repositories.addAll(githubHttpService.getRepoList(username));
+            repositories.addAll(githubHttpService.getRepoList(username, false));
             repositories.forEach(repo -> getRepositoryBranches(username, repo));
         }
 
