@@ -2,7 +2,6 @@ package com.githubintegration.githubapi.github.util;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.databind.type.CollectionType;
 import com.fasterxml.jackson.databind.type.TypeFactory;
 import com.githubintegration.githubapi.github.exceptions.JsonMarshalException;
@@ -11,7 +10,7 @@ import org.springframework.http.HttpStatus;
 import java.io.IOException;
 import java.util.Collection;
 
-public class JsonUtils {
+public class JsonUtil {
     private static final ObjectMapper mapper = new ObjectMapper();
 
     static {

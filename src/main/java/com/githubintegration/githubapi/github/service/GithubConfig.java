@@ -6,14 +6,17 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 class GithubConfig {
     @Bean
-    GithubHttpClient githubHttpClient() {
-        return new GithubHttpClientImpl();
+    GithubHttpService githubHttpService(GithubHttpClient githubHttpClient) {
+        return new GithubHttpServiceImpl(githubHttpClient);
     }
 
     @Bean
-    GithubService githubService(GithubHttpClient githubHttpClient) {
-        return new GithubServiceImpl(githubHttpClient);
+    GithubService githubService(GithubHttpService githubHttpService) {
+        return new GithubServiceImpl(githubHttpService);
     }
 
-
+    @Bean
+    GithubHttpClient githubHttpClient() {
+        return new GithubHttpClientImpl();
+    }
 }

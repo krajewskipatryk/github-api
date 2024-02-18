@@ -7,18 +7,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 class GithubServiceImpl implements GithubService {
-    private final GithubHttpClient githubHttpClient;
+    private final GithubHttpService githubHttpService;
 
-    public GithubServiceImpl(GithubHttpClient githubHttpClient) {
-        this.githubHttpClient = githubHttpClient;
+    public GithubServiceImpl(GithubHttpService githubHttpService) {
+        this.githubHttpService = githubHttpService;
     }
 
     @Override
     public GithubRepositories getGithubReposByUsername(final String username) {
         final List<Repository> repositories = new ArrayList<>();
 
-        if (githubHttpClient.doesUserExist(username)) {
-            repositories.addAll(githubHttpClient.getRepoList(username));
+        if (githubHttpService.doesUserExist(username)) {
+            repositories.addAll(githubHttpService.getRepoList(username));
             repositories.forEach(repo -> getRepositoryBranches(username, repo));
         }
 
@@ -26,6 +26,6 @@ class GithubServiceImpl implements GithubService {
     }
 
     private void getRepositoryBranches(String username, Repository repository) {
-        repository.branches().addAll(githubHttpClient.getBranchList(username, repository.name()));
+        repository.branches().addAll(githubHttpService.getBranchList(username, repository.name()));
     }
 }
