@@ -43,7 +43,7 @@ class GithubServiceImplTest {
                 buildTestBranch(BRANCH_NAME, SHU)
         );
 
-        doReturn(true).when(githubHttpService).doesUserExist(eq(username));
+        doNothing().when(githubHttpService).doesUserExist(eq(username));
         doReturn(repositories).when(githubHttpService).getRepoList(eq(username), eq(false));
         doReturn(branches).when(githubHttpService).getBranchList(eq(username), eq(REPOSITORY_NAME));
 
