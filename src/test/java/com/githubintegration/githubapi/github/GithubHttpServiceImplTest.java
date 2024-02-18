@@ -71,7 +71,7 @@ class GithubHttpServiceImplTest {
         assertAll(
                 () -> assertFalse(result.isEmpty()),
                 () -> result.forEach(branch -> assertNotNull(branch.branchName(), "Branch name is null")),
-                () -> result.forEach(branch -> assertNotNull(branch.shu(), "Branch shu is null")),
+                () -> result.forEach(branch -> assertNotNull(branch.sha(), "Branch sha is null")),
                 () -> verify(githubHttpClient).getGithubBranchList(eq(username), eq(repositoryName)),
                 () -> verifyNoMoreInteractions(githubHttpClient)
         );

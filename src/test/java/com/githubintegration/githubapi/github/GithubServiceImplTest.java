@@ -20,7 +20,7 @@ import static org.mockito.Mockito.*;
 class GithubServiceImplTest {
     private final String REPOSITORY_NAME = "test-repo";
     private final String BRANCH_NAME = "test-branch";
-    private final String SHU = "test-shu";
+    private final String SHU = "test-sha";
 
     private GithubConfig githubConfig = new GithubConfig();
     @Mock
@@ -56,7 +56,7 @@ class GithubServiceImplTest {
                 () -> assertEquals(1, result.repositories().size()),
                 () -> assertEquals(REPOSITORY_NAME, result.repositories().getFirst().name()),
                 () -> assertEquals(BRANCH_NAME, result.repositories().getFirst().branches().getFirst().branchName()),
-                () -> assertEquals(SHU, result.repositories().getFirst().branches().getFirst().shu()),
+                () -> assertEquals(SHU, result.repositories().getFirst().branches().getFirst().sha()),
                 () -> verify(githubHttpService).doesUserExist(eq(username)),
                 () -> verify(githubHttpService).getRepoList(eq(username), eq(false)),
                 () -> verify(githubHttpService).getBranchList(eq(username), eq(REPOSITORY_NAME)),

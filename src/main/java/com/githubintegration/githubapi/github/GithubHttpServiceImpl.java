@@ -40,6 +40,6 @@ class GithubHttpServiceImpl implements GithubHttpService {
     }
 
     private Branch mapToBranch(GithubBranch branch) {
-        return new Branch(branch.name(), branch.commit().shu());
+        return new Branch(branch.name(), branch.commit().sha());
     }
 }
