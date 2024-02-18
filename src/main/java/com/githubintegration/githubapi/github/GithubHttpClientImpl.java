@@ -39,7 +39,6 @@ class GithubHttpClientImpl implements GithubHttpClient {
                 .uri("https://api.github.com/users/{username}", username)
                 .retrieve()
                 .onStatus(HttpStatusCode::is4xxClientError, (request, response) -> {
-                    validateIfRequestLimitExceeded(response.getStatusCode());
                     if (response.getStatusCode() == HttpStatus.NOT_FOUND) {
                         throw new GithubApiEmptyResultSetException(HttpStatus.NOT_FOUND,
                                 STR."User with username = \{username} does not exist");
@@ -50,8 +49,6 @@ class GithubHttpClientImpl implements GithubHttpClient {
 
     private List<GithubBranch> handleGetBranchList(HttpRequest request, RestClient.RequestHeadersSpec.ConvertibleClientHttpResponse response) {
         try {
-            validateIfRequestLimitExceeded(response.getStatusCode());
-
             return getMappedList(response.bodyTo(String.class), GithubBranch.class);
 
         } catch (Exception e) {
@@ -61,8 +58,6 @@ class GithubHttpClientImpl implements GithubHttpClient {
 
     private List<GithubRepository> handleGetRepoList(HttpRequest request, RestClient.RequestHeadersSpec.ConvertibleClientHttpResponse response) {
         try {
-            validateIfRequestLimitExceeded(response.getStatusCode());
-
             return getMappedList(response.bodyTo(String.class), GithubRepository.class);
         }
         catch (RequestLimitExceeded e) {
@@ -71,12 +66,6 @@ class GithubHttpClientImpl implements GithubHttpClient {
         catch (Exception e) {
             throw new GithubClientException(HttpStatus.BAD_REQUEST, STR."Error occurred when parsing Repositories: \{e.getMessage()}");
         }
-    }
-
-    private void validateIfRequestLimitExceeded(HttpStatusCode status) {
-//        if (status == HttpStatus.FORBIDDEN) {
-//            throw new RequestLimitExceeded();
-//        }
     }
 
     private <T> T getMappedList(String json, Class<?> clazz) {

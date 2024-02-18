@@ -62,7 +62,6 @@ class GithubHttpServiceImplTest {
         final String repositoryName = "repository name";
         List<Branch> branches = JsonUtil.unmarshalJsonCollection(branchJson, List.class, GithubBranch.class);
 
-        List<GithubBranch> repositories = JsonUtil.unmarshalJsonCollection(GithubJsonTestValues.REPOSITORIES_JSON, List.class, GithubRepository.class);
         doReturn(branches).when(githubHttpClient).getGithubBranchList(eq(username), eq(repositoryName));
 
         // When
