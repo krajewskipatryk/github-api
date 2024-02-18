@@ -42,18 +42,18 @@ public class GithubJsonTestValues {
             "        \"assignees_url\": \"https://api.github.com/repos/krajewskipatryk/Calculator/assignees{/user}\",\n" +
             "        \"branches_url\": \"https://api.github.com/repos/krajewskipatryk/Calculator/branches{/branch}\",\n" +
             "        \"tags_url\": \"https://api.github.com/repos/krajewskipatryk/Calculator/tags\",\n" +
-            "        \"blobs_url\": \"https://api.github.com/repos/krajewskipatryk/Calculator/git/blobs{/sha}\",\n" +
-            "        \"git_tags_url\": \"https://api.github.com/repos/krajewskipatryk/Calculator/git/tags{/sha}\",\n" +
-            "        \"git_refs_url\": \"https://api.github.com/repos/krajewskipatryk/Calculator/git/refs{/sha}\",\n" +
-            "        \"trees_url\": \"https://api.github.com/repos/krajewskipatryk/Calculator/git/trees{/sha}\",\n" +
-            "        \"statuses_url\": \"https://api.github.com/repos/krajewskipatryk/Calculator/statuses/{sha}\",\n" +
+            "        \"blobs_url\": \"https://api.github.com/repos/krajewskipatryk/Calculator/git/blobs{/shu}\",\n" +
+            "        \"git_tags_url\": \"https://api.github.com/repos/krajewskipatryk/Calculator/git/tags{/shu}\",\n" +
+            "        \"git_refs_url\": \"https://api.github.com/repos/krajewskipatryk/Calculator/git/refs{/shu}\",\n" +
+            "        \"trees_url\": \"https://api.github.com/repos/krajewskipatryk/Calculator/git/trees{/shu}\",\n" +
+            "        \"statuses_url\": \"https://api.github.com/repos/krajewskipatryk/Calculator/statuses/{shu}\",\n" +
             "        \"languages_url\": \"https://api.github.com/repos/krajewskipatryk/Calculator/languages\",\n" +
             "        \"stargazers_url\": \"https://api.github.com/repos/krajewskipatryk/Calculator/stargazers\",\n" +
             "        \"contributors_url\": \"https://api.github.com/repos/krajewskipatryk/Calculator/contributors\",\n" +
             "        \"subscribers_url\": \"https://api.github.com/repos/krajewskipatryk/Calculator/subscribers\",\n" +
             "        \"subscription_url\": \"https://api.github.com/repos/krajewskipatryk/Calculator/subscription\",\n" +
-            "        \"commits_url\": \"https://api.github.com/repos/krajewskipatryk/Calculator/commits{/sha}\",\n" +
-            "        \"git_commits_url\": \"https://api.github.com/repos/krajewskipatryk/Calculator/git/commits{/sha}\",\n" +
+            "        \"commits_url\": \"https://api.github.com/repos/krajewskipatryk/Calculator/commits{/shu}\",\n" +
+            "        \"git_commits_url\": \"https://api.github.com/repos/krajewskipatryk/Calculator/git/commits{/shu}\",\n" +
             "        \"comments_url\": \"https://api.github.com/repos/krajewskipatryk/Calculator/comments{/number}\",\n" +
             "        \"issue_comment_url\": \"https://api.github.com/repos/krajewskipatryk/Calculator/issues/comments{/number}\",\n" +
             "        \"contents_url\": \"https://api.github.com/repos/krajewskipatryk/Calculator/contents/{+path}\",\n" +
@@ -142,18 +142,18 @@ public class GithubJsonTestValues {
             "        \"assignees_url\": \"https://api.github.com/repos/krajewskipatryk/design-patterns-pg/assignees{/user}\",\n" +
             "        \"branches_url\": \"https://api.github.com/repos/krajewskipatryk/design-patterns-pg/branches{/branch}\",\n" +
             "        \"tags_url\": \"https://api.github.com/repos/krajewskipatryk/design-patterns-pg/tags\",\n" +
-            "        \"blobs_url\": \"https://api.github.com/repos/krajewskipatryk/design-patterns-pg/git/blobs{/sha}\",\n" +
-            "        \"git_tags_url\": \"https://api.github.com/repos/krajewskipatryk/design-patterns-pg/git/tags{/sha}\",\n" +
-            "        \"git_refs_url\": \"https://api.github.com/repos/krajewskipatryk/design-patterns-pg/git/refs{/sha}\",\n" +
-            "        \"trees_url\": \"https://api.github.com/repos/krajewskipatryk/design-patterns-pg/git/trees{/sha}\",\n" +
-            "        \"statuses_url\": \"https://api.github.com/repos/krajewskipatryk/design-patterns-pg/statuses/{sha}\",\n" +
+            "        \"blobs_url\": \"https://api.github.com/repos/krajewskipatryk/design-patterns-pg/git/blobs{/shu}\",\n" +
+            "        \"git_tags_url\": \"https://api.github.com/repos/krajewskipatryk/design-patterns-pg/git/tags{/shu}\",\n" +
+            "        \"git_refs_url\": \"https://api.github.com/repos/krajewskipatryk/design-patterns-pg/git/refs{/shu}\",\n" +
+            "        \"trees_url\": \"https://api.github.com/repos/krajewskipatryk/design-patterns-pg/git/trees{/shu}\",\n" +
+            "        \"statuses_url\": \"https://api.github.com/repos/krajewskipatryk/design-patterns-pg/statuses/{shu}\",\n" +
             "        \"languages_url\": \"https://api.github.com/repos/krajewskipatryk/design-patterns-pg/languages\",\n" +
             "        \"stargazers_url\": \"https://api.github.com/repos/krajewskipatryk/design-patterns-pg/stargazers\",\n" +
             "        \"contributors_url\": \"https://api.github.com/repos/krajewskipatryk/design-patterns-pg/contributors\",\n" +
             "        \"subscribers_url\": \"https://api.github.com/repos/krajewskipatryk/design-patterns-pg/subscribers\",\n" +
             "        \"subscription_url\": \"https://api.github.com/repos/krajewskipatryk/design-patterns-pg/subscription\",\n" +
-            "        \"commits_url\": \"https://api.github.com/repos/krajewskipatryk/design-patterns-pg/commits{/sha}\",\n" +
-            "        \"git_commits_url\": \"https://api.github.com/repos/krajewskipatryk/design-patterns-pg/git/commits{/sha}\",\n" +
+            "        \"commits_url\": \"https://api.github.com/repos/krajewskipatryk/design-patterns-pg/commits{/shu}\",\n" +
+            "        \"git_commits_url\": \"https://api.github.com/repos/krajewskipatryk/design-patterns-pg/git/commits{/shu}\",\n" +
             "        \"comments_url\": \"https://api.github.com/repos/krajewskipatryk/design-patterns-pg/comments{/number}\",\n" +
             "        \"issue_comment_url\": \"https://api.github.com/repos/krajewskipatryk/design-patterns-pg/issues/comments{/number}\",\n" +
             "        \"contents_url\": \"https://api.github.com/repos/krajewskipatryk/design-patterns-pg/contents/{+path}\",\n" +
@@ -242,18 +242,18 @@ public class GithubJsonTestValues {
             "        \"assignees_url\": \"https://api.github.com/repos/krajewskipatryk/homeorganizer/assignees{/user}\",\n" +
             "        \"branches_url\": \"https://api.github.com/repos/krajewskipatryk/homeorganizer/branches{/branch}\",\n" +
             "        \"tags_url\": \"https://api.github.com/repos/krajewskipatryk/homeorganizer/tags\",\n" +
-            "        \"blobs_url\": \"https://api.github.com/repos/krajewskipatryk/homeorganizer/git/blobs{/sha}\",\n" +
-            "        \"git_tags_url\": \"https://api.github.com/repos/krajewskipatryk/homeorganizer/git/tags{/sha}\",\n" +
-            "        \"git_refs_url\": \"https://api.github.com/repos/krajewskipatryk/homeorganizer/git/refs{/sha}\",\n" +
-            "        \"trees_url\": \"https://api.github.com/repos/krajewskipatryk/homeorganizer/git/trees{/sha}\",\n" +
-            "        \"statuses_url\": \"https://api.github.com/repos/krajewskipatryk/homeorganizer/statuses/{sha}\",\n" +
+            "        \"blobs_url\": \"https://api.github.com/repos/krajewskipatryk/homeorganizer/git/blobs{/shu}\",\n" +
+            "        \"git_tags_url\": \"https://api.github.com/repos/krajewskipatryk/homeorganizer/git/tags{/shu}\",\n" +
+            "        \"git_refs_url\": \"https://api.github.com/repos/krajewskipatryk/homeorganizer/git/refs{/shu}\",\n" +
+            "        \"trees_url\": \"https://api.github.com/repos/krajewskipatryk/homeorganizer/git/trees{/shu}\",\n" +
+            "        \"statuses_url\": \"https://api.github.com/repos/krajewskipatryk/homeorganizer/statuses/{shu}\",\n" +
             "        \"languages_url\": \"https://api.github.com/repos/krajewskipatryk/homeorganizer/languages\",\n" +
             "        \"stargazers_url\": \"https://api.github.com/repos/krajewskipatryk/homeorganizer/stargazers\",\n" +
             "        \"contributors_url\": \"https://api.github.com/repos/krajewskipatryk/homeorganizer/contributors\",\n" +
             "        \"subscribers_url\": \"https://api.github.com/repos/krajewskipatryk/homeorganizer/subscribers\",\n" +
             "        \"subscription_url\": \"https://api.github.com/repos/krajewskipatryk/homeorganizer/subscription\",\n" +
-            "        \"commits_url\": \"https://api.github.com/repos/krajewskipatryk/homeorganizer/commits{/sha}\",\n" +
-            "        \"git_commits_url\": \"https://api.github.com/repos/krajewskipatryk/homeorganizer/git/commits{/sha}\",\n" +
+            "        \"commits_url\": \"https://api.github.com/repos/krajewskipatryk/homeorganizer/commits{/shu}\",\n" +
+            "        \"git_commits_url\": \"https://api.github.com/repos/krajewskipatryk/homeorganizer/git/commits{/shu}\",\n" +
             "        \"comments_url\": \"https://api.github.com/repos/krajewskipatryk/homeorganizer/comments{/number}\",\n" +
             "        \"issue_comment_url\": \"https://api.github.com/repos/krajewskipatryk/homeorganizer/issues/comments{/number}\",\n" +
             "        \"contents_url\": \"https://api.github.com/repos/krajewskipatryk/homeorganizer/contents/{+path}\",\n" +
@@ -342,18 +342,18 @@ public class GithubJsonTestValues {
             "        \"assignees_url\": \"https://api.github.com/repos/krajewskipatryk/kafka-connect-tools/assignees{/user}\",\n" +
             "        \"branches_url\": \"https://api.github.com/repos/krajewskipatryk/kafka-connect-tools/branches{/branch}\",\n" +
             "        \"tags_url\": \"https://api.github.com/repos/krajewskipatryk/kafka-connect-tools/tags\",\n" +
-            "        \"blobs_url\": \"https://api.github.com/repos/krajewskipatryk/kafka-connect-tools/git/blobs{/sha}\",\n" +
-            "        \"git_tags_url\": \"https://api.github.com/repos/krajewskipatryk/kafka-connect-tools/git/tags{/sha}\",\n" +
-            "        \"git_refs_url\": \"https://api.github.com/repos/krajewskipatryk/kafka-connect-tools/git/refs{/sha}\",\n" +
-            "        \"trees_url\": \"https://api.github.com/repos/krajewskipatryk/kafka-connect-tools/git/trees{/sha}\",\n" +
-            "        \"statuses_url\": \"https://api.github.com/repos/krajewskipatryk/kafka-connect-tools/statuses/{sha}\",\n" +
+            "        \"blobs_url\": \"https://api.github.com/repos/krajewskipatryk/kafka-connect-tools/git/blobs{/shu}\",\n" +
+            "        \"git_tags_url\": \"https://api.github.com/repos/krajewskipatryk/kafka-connect-tools/git/tags{/shu}\",\n" +
+            "        \"git_refs_url\": \"https://api.github.com/repos/krajewskipatryk/kafka-connect-tools/git/refs{/shu}\",\n" +
+            "        \"trees_url\": \"https://api.github.com/repos/krajewskipatryk/kafka-connect-tools/git/trees{/shu}\",\n" +
+            "        \"statuses_url\": \"https://api.github.com/repos/krajewskipatryk/kafka-connect-tools/statuses/{shu}\",\n" +
             "        \"languages_url\": \"https://api.github.com/repos/krajewskipatryk/kafka-connect-tools/languages\",\n" +
             "        \"stargazers_url\": \"https://api.github.com/repos/krajewskipatryk/kafka-connect-tools/stargazers\",\n" +
             "        \"contributors_url\": \"https://api.github.com/repos/krajewskipatryk/kafka-connect-tools/contributors\",\n" +
             "        \"subscribers_url\": \"https://api.github.com/repos/krajewskipatryk/kafka-connect-tools/subscribers\",\n" +
             "        \"subscription_url\": \"https://api.github.com/repos/krajewskipatryk/kafka-connect-tools/subscription\",\n" +
-            "        \"commits_url\": \"https://api.github.com/repos/krajewskipatryk/kafka-connect-tools/commits{/sha}\",\n" +
-            "        \"git_commits_url\": \"https://api.github.com/repos/krajewskipatryk/kafka-connect-tools/git/commits{/sha}\",\n" +
+            "        \"commits_url\": \"https://api.github.com/repos/krajewskipatryk/kafka-connect-tools/commits{/shu}\",\n" +
+            "        \"git_commits_url\": \"https://api.github.com/repos/krajewskipatryk/kafka-connect-tools/git/commits{/shu}\",\n" +
             "        \"comments_url\": \"https://api.github.com/repos/krajewskipatryk/kafka-connect-tools/comments{/number}\",\n" +
             "        \"issue_comment_url\": \"https://api.github.com/repos/krajewskipatryk/kafka-connect-tools/issues/comments{/number}\",\n" +
             "        \"contents_url\": \"https://api.github.com/repos/krajewskipatryk/kafka-connect-tools/contents/{+path}\",\n" +
@@ -448,18 +448,18 @@ public class GithubJsonTestValues {
             "        \"assignees_url\": \"https://api.github.com/repos/krajewskipatryk/livechat/assignees{/user}\",\n" +
             "        \"branches_url\": \"https://api.github.com/repos/krajewskipatryk/livechat/branches{/branch}\",\n" +
             "        \"tags_url\": \"https://api.github.com/repos/krajewskipatryk/livechat/tags\",\n" +
-            "        \"blobs_url\": \"https://api.github.com/repos/krajewskipatryk/livechat/git/blobs{/sha}\",\n" +
-            "        \"git_tags_url\": \"https://api.github.com/repos/krajewskipatryk/livechat/git/tags{/sha}\",\n" +
-            "        \"git_refs_url\": \"https://api.github.com/repos/krajewskipatryk/livechat/git/refs{/sha}\",\n" +
-            "        \"trees_url\": \"https://api.github.com/repos/krajewskipatryk/livechat/git/trees{/sha}\",\n" +
-            "        \"statuses_url\": \"https://api.github.com/repos/krajewskipatryk/livechat/statuses/{sha}\",\n" +
+            "        \"blobs_url\": \"https://api.github.com/repos/krajewskipatryk/livechat/git/blobs{/shu}\",\n" +
+            "        \"git_tags_url\": \"https://api.github.com/repos/krajewskipatryk/livechat/git/tags{/shu}\",\n" +
+            "        \"git_refs_url\": \"https://api.github.com/repos/krajewskipatryk/livechat/git/refs{/shu}\",\n" +
+            "        \"trees_url\": \"https://api.github.com/repos/krajewskipatryk/livechat/git/trees{/shu}\",\n" +
+            "        \"statuses_url\": \"https://api.github.com/repos/krajewskipatryk/livechat/statuses/{shu}\",\n" +
             "        \"languages_url\": \"https://api.github.com/repos/krajewskipatryk/livechat/languages\",\n" +
             "        \"stargazers_url\": \"https://api.github.com/repos/krajewskipatryk/livechat/stargazers\",\n" +
             "        \"contributors_url\": \"https://api.github.com/repos/krajewskipatryk/livechat/contributors\",\n" +
             "        \"subscribers_url\": \"https://api.github.com/repos/krajewskipatryk/livechat/subscribers\",\n" +
             "        \"subscription_url\": \"https://api.github.com/repos/krajewskipatryk/livechat/subscription\",\n" +
-            "        \"commits_url\": \"https://api.github.com/repos/krajewskipatryk/livechat/commits{/sha}\",\n" +
-            "        \"git_commits_url\": \"https://api.github.com/repos/krajewskipatryk/livechat/git/commits{/sha}\",\n" +
+            "        \"commits_url\": \"https://api.github.com/repos/krajewskipatryk/livechat/commits{/shu}\",\n" +
+            "        \"git_commits_url\": \"https://api.github.com/repos/krajewskipatryk/livechat/git/commits{/shu}\",\n" +
             "        \"comments_url\": \"https://api.github.com/repos/krajewskipatryk/livechat/comments{/number}\",\n" +
             "        \"issue_comment_url\": \"https://api.github.com/repos/krajewskipatryk/livechat/issues/comments{/number}\",\n" +
             "        \"contents_url\": \"https://api.github.com/repos/krajewskipatryk/livechat/contents/{+path}\",\n" +
@@ -548,18 +548,18 @@ public class GithubJsonTestValues {
             "        \"assignees_url\": \"https://api.github.com/repos/krajewskipatryk/pc-configurator/assignees{/user}\",\n" +
             "        \"branches_url\": \"https://api.github.com/repos/krajewskipatryk/pc-configurator/branches{/branch}\",\n" +
             "        \"tags_url\": \"https://api.github.com/repos/krajewskipatryk/pc-configurator/tags\",\n" +
-            "        \"blobs_url\": \"https://api.github.com/repos/krajewskipatryk/pc-configurator/git/blobs{/sha}\",\n" +
-            "        \"git_tags_url\": \"https://api.github.com/repos/krajewskipatryk/pc-configurator/git/tags{/sha}\",\n" +
-            "        \"git_refs_url\": \"https://api.github.com/repos/krajewskipatryk/pc-configurator/git/refs{/sha}\",\n" +
-            "        \"trees_url\": \"https://api.github.com/repos/krajewskipatryk/pc-configurator/git/trees{/sha}\",\n" +
-            "        \"statuses_url\": \"https://api.github.com/repos/krajewskipatryk/pc-configurator/statuses/{sha}\",\n" +
+            "        \"blobs_url\": \"https://api.github.com/repos/krajewskipatryk/pc-configurator/git/blobs{/shu}\",\n" +
+            "        \"git_tags_url\": \"https://api.github.com/repos/krajewskipatryk/pc-configurator/git/tags{/shu}\",\n" +
+            "        \"git_refs_url\": \"https://api.github.com/repos/krajewskipatryk/pc-configurator/git/refs{/shu}\",\n" +
+            "        \"trees_url\": \"https://api.github.com/repos/krajewskipatryk/pc-configurator/git/trees{/shu}\",\n" +
+            "        \"statuses_url\": \"https://api.github.com/repos/krajewskipatryk/pc-configurator/statuses/{shu}\",\n" +
             "        \"languages_url\": \"https://api.github.com/repos/krajewskipatryk/pc-configurator/languages\",\n" +
             "        \"stargazers_url\": \"https://api.github.com/repos/krajewskipatryk/pc-configurator/stargazers\",\n" +
             "        \"contributors_url\": \"https://api.github.com/repos/krajewskipatryk/pc-configurator/contributors\",\n" +
             "        \"subscribers_url\": \"https://api.github.com/repos/krajewskipatryk/pc-configurator/subscribers\",\n" +
             "        \"subscription_url\": \"https://api.github.com/repos/krajewskipatryk/pc-configurator/subscription\",\n" +
-            "        \"commits_url\": \"https://api.github.com/repos/krajewskipatryk/pc-configurator/commits{/sha}\",\n" +
-            "        \"git_commits_url\": \"https://api.github.com/repos/krajewskipatryk/pc-configurator/git/commits{/sha}\",\n" +
+            "        \"commits_url\": \"https://api.github.com/repos/krajewskipatryk/pc-configurator/commits{/shu}\",\n" +
+            "        \"git_commits_url\": \"https://api.github.com/repos/krajewskipatryk/pc-configurator/git/commits{/shu}\",\n" +
             "        \"comments_url\": \"https://api.github.com/repos/krajewskipatryk/pc-configurator/comments{/number}\",\n" +
             "        \"issue_comment_url\": \"https://api.github.com/repos/krajewskipatryk/pc-configurator/issues/comments{/number}\",\n" +
             "        \"contents_url\": \"https://api.github.com/repos/krajewskipatryk/pc-configurator/contents/{+path}\",\n" +
@@ -648,18 +648,18 @@ public class GithubJsonTestValues {
             "        \"assignees_url\": \"https://api.github.com/repos/krajewskipatryk/SocialCard/assignees{/user}\",\n" +
             "        \"branches_url\": \"https://api.github.com/repos/krajewskipatryk/SocialCard/branches{/branch}\",\n" +
             "        \"tags_url\": \"https://api.github.com/repos/krajewskipatryk/SocialCard/tags\",\n" +
-            "        \"blobs_url\": \"https://api.github.com/repos/krajewskipatryk/SocialCard/git/blobs{/sha}\",\n" +
-            "        \"git_tags_url\": \"https://api.github.com/repos/krajewskipatryk/SocialCard/git/tags{/sha}\",\n" +
-            "        \"git_refs_url\": \"https://api.github.com/repos/krajewskipatryk/SocialCard/git/refs{/sha}\",\n" +
-            "        \"trees_url\": \"https://api.github.com/repos/krajewskipatryk/SocialCard/git/trees{/sha}\",\n" +
-            "        \"statuses_url\": \"https://api.github.com/repos/krajewskipatryk/SocialCard/statuses/{sha}\",\n" +
+            "        \"blobs_url\": \"https://api.github.com/repos/krajewskipatryk/SocialCard/git/blobs{/shu}\",\n" +
+            "        \"git_tags_url\": \"https://api.github.com/repos/krajewskipatryk/SocialCard/git/tags{/shu}\",\n" +
+            "        \"git_refs_url\": \"https://api.github.com/repos/krajewskipatryk/SocialCard/git/refs{/shu}\",\n" +
+            "        \"trees_url\": \"https://api.github.com/repos/krajewskipatryk/SocialCard/git/trees{/shu}\",\n" +
+            "        \"statuses_url\": \"https://api.github.com/repos/krajewskipatryk/SocialCard/statuses/{shu}\",\n" +
             "        \"languages_url\": \"https://api.github.com/repos/krajewskipatryk/SocialCard/languages\",\n" +
             "        \"stargazers_url\": \"https://api.github.com/repos/krajewskipatryk/SocialCard/stargazers\",\n" +
             "        \"contributors_url\": \"https://api.github.com/repos/krajewskipatryk/SocialCard/contributors\",\n" +
             "        \"subscribers_url\": \"https://api.github.com/repos/krajewskipatryk/SocialCard/subscribers\",\n" +
             "        \"subscription_url\": \"https://api.github.com/repos/krajewskipatryk/SocialCard/subscription\",\n" +
-            "        \"commits_url\": \"https://api.github.com/repos/krajewskipatryk/SocialCard/commits{/sha}\",\n" +
-            "        \"git_commits_url\": \"https://api.github.com/repos/krajewskipatryk/SocialCard/git/commits{/sha}\",\n" +
+            "        \"commits_url\": \"https://api.github.com/repos/krajewskipatryk/SocialCard/commits{/shu}\",\n" +
+            "        \"git_commits_url\": \"https://api.github.com/repos/krajewskipatryk/SocialCard/git/commits{/shu}\",\n" +
             "        \"comments_url\": \"https://api.github.com/repos/krajewskipatryk/SocialCard/comments{/number}\",\n" +
             "        \"issue_comment_url\": \"https://api.github.com/repos/krajewskipatryk/SocialCard/issues/comments{/number}\",\n" +
             "        \"contents_url\": \"https://api.github.com/repos/krajewskipatryk/SocialCard/contents/{+path}\",\n" +
@@ -714,7 +714,7 @@ public class GithubJsonTestValues {
             "    {\n" +
             "        \"name\": \"dependabot/npm_and_yarn/decode-uri-component-0.2.2\",\n" +
             "        \"commit\": {\n" +
-            "            \"sha\": \"a77cf2c2407c232d5163de6a8b2725d3a7f3976f\",\n" +
+            "            \"shu\": \"a77cf2c2407c232d5163de6a8b2725d3a7f3976f\",\n" +
             "            \"url\": \"https://api.github.com/repos/krajewskipatryk/Calculator/commits/a77cf2c2407c232d5163de6a8b2725d3a7f3976f\"\n" +
             "        },\n" +
             "        \"protected\": false\n" +
@@ -722,7 +722,7 @@ public class GithubJsonTestValues {
             "    {\n" +
             "        \"name\": \"dependabot/npm_and_yarn/hapi/hoek-8.5.1\",\n" +
             "        \"commit\": {\n" +
-            "            \"sha\": \"b327c4c2e8fc99a0ff2dfc60c2b7d40ed6ee609e\",\n" +
+            "            \"shu\": \"b327c4c2e8fc99a0ff2dfc60c2b7d40ed6ee609e\",\n" +
             "            \"url\": \"https://api.github.com/repos/krajewskipatryk/Calculator/commits/b327c4c2e8fc99a0ff2dfc60c2b7d40ed6ee609e\"\n" +
             "        },\n" +
             "        \"protected\": false\n" +
@@ -730,7 +730,7 @@ public class GithubJsonTestValues {
             "    {\n" +
             "        \"name\": \"dependabot/npm_and_yarn/json5-1.0.2\",\n" +
             "        \"commit\": {\n" +
-            "            \"sha\": \"396021aa7a6a9efe9e52f1057afbcfceb45e443b\",\n" +
+            "            \"shu\": \"396021aa7a6a9efe9e52f1057afbcfceb45e443b\",\n" +
             "            \"url\": \"https://api.github.com/repos/krajewskipatryk/Calculator/commits/396021aa7a6a9efe9e52f1057afbcfceb45e443b\"\n" +
             "        },\n" +
             "        \"protected\": false\n" +
@@ -738,7 +738,7 @@ public class GithubJsonTestValues {
             "    {\n" +
             "        \"name\": \"dependabot/npm_and_yarn/loader-utils-and-react-scripts-2.0.4\",\n" +
             "        \"commit\": {\n" +
-            "            \"sha\": \"ae8aa06fe33d1309df1bb3c40c2362e291b2cbcc\",\n" +
+            "            \"shu\": \"ae8aa06fe33d1309df1bb3c40c2362e291b2cbcc\",\n" +
             "            \"url\": \"https://api.github.com/repos/krajewskipatryk/Calculator/commits/ae8aa06fe33d1309df1bb3c40c2362e291b2cbcc\"\n" +
             "        },\n" +
             "        \"protected\": false\n" +
@@ -746,7 +746,7 @@ public class GithubJsonTestValues {
             "    {\n" +
             "        \"name\": \"dependabot/npm_and_yarn/mathjs-7.5.1\",\n" +
             "        \"commit\": {\n" +
-            "            \"sha\": \"02838b8c90150d6d1508642ac1bb089fb5a86836\",\n" +
+            "            \"shu\": \"02838b8c90150d6d1508642ac1bb089fb5a86836\",\n" +
             "            \"url\": \"https://api.github.com/repos/krajewskipatryk/Calculator/commits/02838b8c90150d6d1508642ac1bb089fb5a86836\"\n" +
             "        },\n" +
             "        \"protected\": false\n" +
@@ -754,7 +754,7 @@ public class GithubJsonTestValues {
             "    {\n" +
             "        \"name\": \"dependabot/npm_and_yarn/minimatch-and-react-scripts-3.1.2\",\n" +
             "        \"commit\": {\n" +
-            "            \"sha\": \"30372e226668c0950454ca282b8e28931f39fa39\",\n" +
+            "            \"shu\": \"30372e226668c0950454ca282b8e28931f39fa39\",\n" +
             "            \"url\": \"https://api.github.com/repos/krajewskipatryk/Calculator/commits/30372e226668c0950454ca282b8e28931f39fa39\"\n" +
             "        },\n" +
             "        \"protected\": false\n" +
@@ -762,7 +762,7 @@ public class GithubJsonTestValues {
             "    {\n" +
             "        \"name\": \"dependabot/npm_and_yarn/minimist-and-mkdirp-and-loader-fs-cache-and-handlebars-1.2.8\",\n" +
             "        \"commit\": {\n" +
-            "            \"sha\": \"313a5b5ecdef9e45390fd3c1ad4f3f37a1c3dd0e\",\n" +
+            "            \"shu\": \"313a5b5ecdef9e45390fd3c1ad4f3f37a1c3dd0e\",\n" +
             "            \"url\": \"https://api.github.com/repos/krajewskipatryk/Calculator/commits/313a5b5ecdef9e45390fd3c1ad4f3f37a1c3dd0e\"\n" +
             "        },\n" +
             "        \"protected\": false\n" +
@@ -770,7 +770,7 @@ public class GithubJsonTestValues {
             "    {\n" +
             "        \"name\": \"dependabot/npm_and_yarn/qs-6.5.3\",\n" +
             "        \"commit\": {\n" +
-            "            \"sha\": \"02ddc5942c83134cfb358882d4a683efefb3d11f\",\n" +
+            "            \"shu\": \"02ddc5942c83134cfb358882d4a683efefb3d11f\",\n" +
             "            \"url\": \"https://api.github.com/repos/krajewskipatryk/Calculator/commits/02ddc5942c83134cfb358882d4a683efefb3d11f\"\n" +
             "        },\n" +
             "        \"protected\": false\n" +
@@ -778,7 +778,7 @@ public class GithubJsonTestValues {
             "    {\n" +
             "        \"name\": \"master\",\n" +
             "        \"commit\": {\n" +
-            "            \"sha\": \"5f808bbdce01e3c5351240db1488d07f11b0f66f\",\n" +
+            "            \"shu\": \"5f808bbdce01e3c5351240db1488d07f11b0f66f\",\n" +
             "            \"url\": \"https://api.github.com/repos/krajewskipatryk/Calculator/commits/5f808bbdce01e3c5351240db1488d07f11b0f66f\"\n" +
             "        },\n" +
             "        \"protected\": false\n" +
@@ -789,7 +789,7 @@ public class GithubJsonTestValues {
             "    {\n" +
             "        \"name\": \"master\",\n" +
             "        \"commit\": {\n" +
-            "            \"sha\": \"38d7ef4ec9ea98654f943cfebeec9ced19e9d247\",\n" +
+            "            \"shu\": \"38d7ef4ec9ea98654f943cfebeec9ced19e9d247\",\n" +
             "            \"url\": \"https://api.github.com/repos/krajewskipatryk/design-patterns-pg/commits/38d7ef4ec9ea98654f943cfebeec9ced19e9d247\"\n" +
             "        },\n" +
             "        \"protected\": false\n" +
@@ -800,7 +800,7 @@ public class GithubJsonTestValues {
             "    {\n" +
             "        \"name\": \"Refactor\",\n" +
             "        \"commit\": {\n" +
-            "            \"sha\": \"3ea0008de089e8c919fcad2b5438bd474701cab1\",\n" +
+            "            \"shu\": \"3ea0008de089e8c919fcad2b5438bd474701cab1\",\n" +
             "            \"url\": \"https://api.github.com/repos/krajewskipatryk/homeorganizer/commits/3ea0008de089e8c919fcad2b5438bd474701cab1\"\n" +
             "        },\n" +
             "        \"protected\": false\n" +
@@ -808,7 +808,7 @@ public class GithubJsonTestValues {
             "    {\n" +
             "        \"name\": \"master\",\n" +
             "        \"commit\": {\n" +
-            "            \"sha\": \"085b3b82541edcdc97ae9a0c0ac1d2fe356843dd\",\n" +
+            "            \"shu\": \"085b3b82541edcdc97ae9a0c0ac1d2fe356843dd\",\n" +
             "            \"url\": \"https://api.github.com/repos/krajewskipatryk/homeorganizer/commits/085b3b82541edcdc97ae9a0c0ac1d2fe356843dd\"\n" +
             "        },\n" +
             "        \"protected\": false\n" +
@@ -816,7 +816,7 @@ public class GithubJsonTestValues {
             "    {\n" +
             "        \"name\": \"test\",\n" +
             "        \"commit\": {\n" +
-            "            \"sha\": \"e284cad550089741e288c54ee1a04528a988fe95\",\n" +
+            "            \"shu\": \"e284cad550089741e288c54ee1a04528a988fe95\",\n" +
             "            \"url\": \"https://api.github.com/repos/krajewskipatryk/homeorganizer/commits/e284cad550089741e288c54ee1a04528a988fe95\"\n" +
             "        },\n" +
             "        \"protected\": false\n" +
@@ -827,7 +827,7 @@ public class GithubJsonTestValues {
             "    {\n" +
             "        \"name\": \"master\",\n" +
             "        \"commit\": {\n" +
-            "            \"sha\": \"5e14d8aa1ba43b96bc0bdba02e328c4ce48c0883\",\n" +
+            "            \"shu\": \"5e14d8aa1ba43b96bc0bdba02e328c4ce48c0883\",\n" +
             "            \"url\": \"https://api.github.com/repos/krajewskipatryk/kafka-connect-tools/commits/5e14d8aa1ba43b96bc0bdba02e328c4ce48c0883\"\n" +
             "        },\n" +
             "        \"protected\": false\n" +
@@ -838,7 +838,7 @@ public class GithubJsonTestValues {
             "    {\n" +
             "        \"name\": \"master\",\n" +
             "        \"commit\": {\n" +
-            "            \"sha\": \"a73f522f5c18a9192f9db174c95d43c212e5c33f\",\n" +
+            "            \"shu\": \"a73f522f5c18a9192f9db174c95d43c212e5c33f\",\n" +
             "            \"url\": \"https://api.github.com/repos/krajewskipatryk/livechat/commits/a73f522f5c18a9192f9db174c95d43c212e5c33f\"\n" +
             "        },\n" +
             "        \"protected\": false\n" +
@@ -849,7 +849,7 @@ public class GithubJsonTestValues {
             "    {\n" +
             "        \"name\": \"create-basics-of-configurator-module\",\n" +
             "        \"commit\": {\n" +
-            "            \"sha\": \"198a9c712f45fb9b54c13dd125bede49555544e3\",\n" +
+            "            \"shu\": \"198a9c712f45fb9b54c13dd125bede49555544e3\",\n" +
             "            \"url\": \"https://api.github.com/repos/krajewskipatryk/pc-configurator/commits/198a9c712f45fb9b54c13dd125bede49555544e3\"\n" +
             "        },\n" +
             "        \"protected\": false\n" +
@@ -857,7 +857,7 @@ public class GithubJsonTestValues {
             "    {\n" +
             "        \"name\": \"create-configurator\",\n" +
             "        \"commit\": {\n" +
-            "            \"sha\": \"60f6c1ffe14a046c964b0564007ac63c88ee96b1\",\n" +
+            "            \"shu\": \"60f6c1ffe14a046c964b0564007ac63c88ee96b1\",\n" +
             "            \"url\": \"https://api.github.com/repos/krajewskipatryk/pc-configurator/commits/60f6c1ffe14a046c964b0564007ac63c88ee96b1\"\n" +
             "        },\n" +
             "        \"protected\": false\n" +
@@ -865,7 +865,7 @@ public class GithubJsonTestValues {
             "    {\n" +
             "        \"name\": \"create-parts\",\n" +
             "        \"commit\": {\n" +
-            "            \"sha\": \"23d077be42665bc72dd082ff1fa596bab8949eef\",\n" +
+            "            \"shu\": \"23d077be42665bc72dd082ff1fa596bab8949eef\",\n" +
             "            \"url\": \"https://api.github.com/repos/krajewskipatryk/pc-configurator/commits/23d077be42665bc72dd082ff1fa596bab8949eef\"\n" +
             "        },\n" +
             "        \"protected\": false\n" +
@@ -873,7 +873,7 @@ public class GithubJsonTestValues {
             "    {\n" +
             "        \"name\": \"master\",\n" +
             "        \"commit\": {\n" +
-            "            \"sha\": \"3516839e37aeb26ea8b527b2d417bb11aa950ff9\",\n" +
+            "            \"shu\": \"3516839e37aeb26ea8b527b2d417bb11aa950ff9\",\n" +
             "            \"url\": \"https://api.github.com/repos/krajewskipatryk/pc-configurator/commits/3516839e37aeb26ea8b527b2d417bb11aa950ff9\"\n" +
             "        },\n" +
             "        \"protected\": false\n" +
@@ -884,7 +884,7 @@ public class GithubJsonTestValues {
             "    {\n" +
             "        \"name\": \"master\",\n" +
             "        \"commit\": {\n" +
-            "            \"sha\": \"2c7d167807db2357cb2b6a8643042fac86a6ff11\",\n" +
+            "            \"shu\": \"2c7d167807db2357cb2b6a8643042fac86a6ff11\",\n" +
             "            \"url\": \"https://api.github.com/repos/krajewskipatryk/SocialCard/commits/2c7d167807db2357cb2b6a8643042fac86a6ff11\"\n" +
             "        },\n" +
             "        \"protected\": false\n" +

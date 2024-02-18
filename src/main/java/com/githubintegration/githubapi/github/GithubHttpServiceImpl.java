@@ -31,8 +31,8 @@ class GithubHttpServiceImpl implements GithubHttpService {
     }
 
     @Override
-    public boolean doesUserExist(String username) {
-        return githubHttpClient.getGithubUser(username) != null;
+    public void doesUserExist(String username) {
+        githubHttpClient.getGithubUser(username);
     }
 
     private Repository mapToRepository(GithubRepository repo) {
@@ -40,6 +40,6 @@ class GithubHttpServiceImpl implements GithubHttpService {
     }
 
     private Branch mapToBranch(GithubBranch branch) {
-        return new Branch(branch.name(), branch.commit().sha());
+        return new Branch(branch.name(), branch.commit().shu());
     }
 }

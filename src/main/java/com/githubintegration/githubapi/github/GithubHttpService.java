@@ -9,5 +9,5 @@ import java.util.List;
 public interface GithubHttpService {
     List<Repository> getRepoList(String username, boolean includeForks);
     List<Branch> getBranchList(String username, String repository);
-    boolean doesUserExist(String username);
+    void doesUserExist(String username);
 }
