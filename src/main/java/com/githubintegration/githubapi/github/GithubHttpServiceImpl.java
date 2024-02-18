@@ -1,4 +1,4 @@
-package com.githubintegration.githubapi.github.service;
+package com.githubintegration.githubapi.github;
 
 import com.githubintegration.githubapi.github.model.api.Branch;
 import com.githubintegration.githubapi.github.model.api.Repository;
@@ -17,7 +17,7 @@ class GithubHttpServiceImpl implements GithubHttpService {
 
     @Override
     public List<Repository> getRepoList(String username, boolean includeForks) {
-        return githubHttpClient.getRepoList(username).stream()
+        return githubHttpClient.getGithubRepoList(username).stream()
                 .filter(repo -> repo.fork().equals(includeForks))
                 .map(this::mapToRepository)
                 .toList();
@@ -25,14 +25,14 @@ class GithubHttpServiceImpl implements GithubHttpService {
 
     @Override
     public List<Branch> getBranchList(String username, String repository) {
-        return githubHttpClient.getBranchList(username, repository).stream()
+        return githubHttpClient.getGithubBranchList(username, repository).stream()
                 .map(this::mapToBranch)
                 .toList();
     }
 
     @Override
     public boolean doesUserExist(String username) {
-        return githubHttpClient.getUser(username) != null;
+        return githubHttpClient.getGithubUser(username) != null;
     }
 
     private Repository mapToRepository(GithubRepository repo) {

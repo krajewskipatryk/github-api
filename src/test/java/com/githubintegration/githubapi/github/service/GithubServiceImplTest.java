@@ -1,5 +1,8 @@
 package com.githubintegration.githubapi.github.service;
 
+import com.githubintegration.githubapi.github.GithubConfig;
+import com.githubintegration.githubapi.github.GithubHttpService;
+import com.githubintegration.githubapi.github.GithubService;
 import com.githubintegration.githubapi.github.model.api.GithubRepositories;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

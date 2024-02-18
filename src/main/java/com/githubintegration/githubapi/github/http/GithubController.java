@@ -1,9 +1,7 @@
 package com.githubintegration.githubapi.github.http;
 
-import com.githubintegration.githubapi.github.service.GithubService;
+import com.githubintegration.githubapi.github.GithubService;
 import com.githubintegration.githubapi.github.model.api.GithubRepositories;
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.HttpRequest;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

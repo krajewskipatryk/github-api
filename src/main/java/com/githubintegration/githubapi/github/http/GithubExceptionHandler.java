@@ -1,9 +1,9 @@
 package com.githubintegration.githubapi.github.http;
 
-import com.githubintegration.githubapi.github.exceptions.GithubApiEmptyResultSetException;
-import com.githubintegration.githubapi.github.exceptions.GithubClientException;
-import com.githubintegration.githubapi.github.exceptions.JsonMarshalException;
-import com.githubintegration.githubapi.github.exceptions.RequestLimitExceeded;
+import com.githubintegration.githubapi.github.exception.GithubApiEmptyResultSetException;
+import com.githubintegration.githubapi.github.exception.GithubClientException;
+import com.githubintegration.githubapi.github.exception.JsonMarshalException;
+import com.githubintegration.githubapi.github.exception.RequestLimitExceeded;
 import com.githubintegration.githubapi.github.model.exception.ApiError;
 import com.githubintegration.githubapi.github.util.JsonUtil;
 import org.springframework.http.HttpStatus;

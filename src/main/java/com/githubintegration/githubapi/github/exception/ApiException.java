@@ -1,4 +1,4 @@
-package com.githubintegration.githubapi.github.exceptions;
+package com.githubintegration.githubapi.github.exception;
 
 import org.springframework.http.HttpStatus;
 

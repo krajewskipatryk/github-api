@@ -1,4 +1,4 @@
-package com.githubintegration.githubapi.github.service;
+package com.githubintegration.githubapi.github;
 
 
 import com.githubintegration.githubapi.github.model.api.Branch;

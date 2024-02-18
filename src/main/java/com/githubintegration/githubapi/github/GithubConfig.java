@@ -1,4 +1,4 @@
-package com.githubintegration.githubapi.github.service;
+package com.githubintegration.githubapi.github;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

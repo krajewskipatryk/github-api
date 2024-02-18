@@ -1,8 +1,8 @@
-package com.githubintegration.githubapi.github.service;
+package com.githubintegration.githubapi.github;
 
-import com.githubintegration.githubapi.github.exceptions.GithubApiEmptyResultSetException;
-import com.githubintegration.githubapi.github.exceptions.GithubClientException;
-import com.githubintegration.githubapi.github.exceptions.RequestLimitExceeded;
+import com.githubintegration.githubapi.github.exception.GithubApiEmptyResultSetException;
+import com.githubintegration.githubapi.github.exception.GithubClientException;
+import com.githubintegration.githubapi.github.exception.RequestLimitExceeded;
 import com.githubintegration.githubapi.github.model.github.GithubBranch;
 import com.githubintegration.githubapi.github.model.github.GithubRepository;
 import com.githubintegration.githubapi.github.util.JsonUtil;
@@ -17,7 +17,7 @@ class GithubHttpClientImpl implements GithubHttpClient {
     private final RestClient githubClient = RestClient.create();
 
     @Override
-    public List<GithubRepository> getRepoList(String username) {
+    public List<GithubRepository> getGithubRepoList(String username) {
         return githubClient
                 .get()
                 .uri("https://api.github.com/users/{username}/repos", username)
@@ -25,7 +25,7 @@ class GithubHttpClientImpl implements GithubHttpClient {
     }
 
     @Override
-    public List<GithubBranch> getBranchList(String username, String repository) {
+    public List<GithubBranch> getGithubBranchList(String username, String repository) {
         return githubClient
                 .get()
                 .uri("https://api.github.com/repos/{username}/{repository}/branches", username, repository)
@@ -33,7 +33,7 @@ class GithubHttpClientImpl implements GithubHttpClient {
     }
 
     @Override
-    public String getUser(String username) {
+    public String getGithubUser(String username) {
         return githubClient
                 .get()
                 .uri("https://api.github.com/users/{username}", username)

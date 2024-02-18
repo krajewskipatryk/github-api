@@ -4,7 +4,7 @@ import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.type.CollectionType;
 import com.fasterxml.jackson.databind.type.TypeFactory;
-import com.githubintegration.githubapi.github.exceptions.JsonMarshalException;
+import com.githubintegration.githubapi.github.exception.JsonMarshalException;
 import org.springframework.http.HttpStatus;
 
 import java.io.IOException;
